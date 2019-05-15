@@ -19,6 +19,7 @@ from django.urls import include, path
 
 urlpatterns = [
     path("", include("helloapp.urls")),
+    path("", include("blog.urls")),
 ]
 urlpatterns += staticfiles_urlpatterns()
 
