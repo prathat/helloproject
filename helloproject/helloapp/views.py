@@ -3,6 +3,7 @@ import re
 from datetime import datetime
 from django.http import HttpResponse
 
+
 def home(request):
     return HttpResponse("Hello, World! This is an http response from django`s webserver")
 def page1(request):
